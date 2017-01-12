@@ -21,10 +21,12 @@ function ramp(n) {
       return false;
     }
   }
-  return true
+  return true;
 }
 
-console.log('1234', ramp(1234));
-console.log('1124', ramp(1124));
-console.log('1032', ramp(1032));
-console.log('4528', ramp(4528));
+// console.log('1234', ramp(1234));
+// console.log('1124', ramp(1124));
+// console.log('1032', ramp(1032));
+// console.log('4528', ramp(4528));
+
+module.exports = ramp;
